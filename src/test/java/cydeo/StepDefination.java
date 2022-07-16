@@ -22,6 +22,7 @@ public class StepDefination {
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().get("http://etsy.com");
         System.out.println();
+        System.out.println();
     }
 
     @When("^I search for \"([^\"]*)\"$")
